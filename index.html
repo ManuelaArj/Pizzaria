@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pizzaria los brothers</title>
+</head>
+<body>
+    <header class="content">
+        <div class="logo">
+            <img src="img/Logo.png" alt="">
+            <h3>Pizzaria Los brothers</h3>
+        </div>
+        <nav>
+            <ul class="list-menu"> 
+                <li><a href="index.html">Home</a></li>
+                <li><a href="file:///C:/Users/Dell/Documents/pizzarialosbrothers/sobre.html">Sobre nós</a></li>
+                <li><a href="file:///C:/Users/Dell/Documents/pizzarialosbrothers/cardapio.html">Cardápio</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="first-section">
+        <img src="img/image.png" alt="plano de fundo" width: 500px; height: 700;>
+        <div class="conteudo-principal">
+            <h1>Deixe seu dia mais saboroso!</h1>
+            <br>
+            <div class="btn">
+                <a><button id="meuBotao">FAÇA SEU PEDIDO!</button></a>
+                <button id="login">JÁ POSSUO CONTA</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="first-footer">
+    </footer>
+
+    <script>
+        document.getElementById('meuBotao').addEventListener('click', function () {
+            window.location.href = '/cadastro';
+        });
+        document.getElementById('login').addEventListener('click', function () {
+            window.location.href = '/login';
+        });
+    </script>
+     
+     <footer class="first-footer">
+        <h4>Contatos:</h4>
+        <ul>
+            <li>Telefone: (11) 99999-9999</li>
+            <li>E-mail: losbrothers@mail.com</li>
+        </ul>
+ </footer>
+</body>
+</html>

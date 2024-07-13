@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cardápio de Pizzaria</title>
+  <link rel="stylesheet" href="stylec.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>Cardápio</h1>
+
+    <form action="/processar-sabor" method="post">
+      <ul>
+        <li>
+          <input type="radio" id="calabresa" name="sabor" value="Pizza de Calabresa">
+          <label for="calabresa">Calabresa</label>
+          <span>R$ 45.00</span>
+        </li>
+        <li>
+          <input type="radio" id="mussarela" name="sabor" value="Pizza de Mussarela">
+          <label for="mussarela">Mussarela</label>
+          <span>R$ 42.00</span>
+        </li>
+        <li>
+          <input type="radio" id="frango" name="sabor" value="Pizza de Frango com Catupiry">
+          <label for="frango">Frango com Catupiry</label>
+          <span>R$ 50.00</span>
+        </li>
+
+        <li>
+          <input type="radio" id="pizza1" name="sabor" value="Pizza 1">
+          <label for="pizza1">Atum</label>
+          <span>R$ 45.00</span>
+        </li>
+        <li>
+          <input type="radio" id="pizza2" name="sabor" value="Pizza 2">
+          <label for="pizza2">Quatro-Queijos</label>
+          <span>R$ 46.00</span>
+        </li>
+        <li>
+          <input type="radio" id="pizza3" name="sabor" value="Pizza 3">
+          <label for="pizza3">Chocolate</label>
+          <span>R$ 48.00</span>
+        </li>
+        <li>
+          <input type="radio" id="pizza4" name="sabor" value="Pizza 4">
+          <label for="pizza4">Cogumelo</label>
+          <span>R$ 47.00</span>
+        </li>
+        <li>
+          <input type="radio" id="pizza5" name="sabor" value="Pizza 5">
+          <label for="pizza5">Portuguesa</label>
+          <span>R$ 44.00</span>
+        </li>
+        <li>
+          <input type="radio" id="pizza6" name="sabor" value="Pizza 6">
+          <label for="pizza6">Salsa</label>
+          <span>R$ 42.00</span>
+        </li>
+      </ul>
+      <button type="submit">Selecionar Pizza</button>
+    </form>
+  </div>
+</body>
+
+</html>
